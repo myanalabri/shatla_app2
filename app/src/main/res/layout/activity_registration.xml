@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg_2">
+
+
+    <EditTextn
+        android:id="@+id/name"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/editText"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:background="#cae1c6"
+        android:hint="Name of nursery "
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="12dp"
+        android:background="#cae1c6"
+        android:hint="Phone number"
+
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/addres"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_alignStart="@+id/phone"
+        android:layout_below="@+id/phone"
+        android:layout_marginTop="12dp"
+        android:background="#cae1c6"
+        android:hint="Address"
+
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+
+        android:layout_alignLeft="@+id/addres"
+        android:layout_alignStart="@+id/addres"
+        android:layout_below="@+id/addres"
+        android:layout_marginTop="13dp"
+        android:background="#cae1c6"
+        android:hint="Location"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/location"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:background="#cae1c6"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="285dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/location"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:background="#cae1c6"
+        android:hint="Password"
+        android:inputType="text"
+        android:padding="8dp" />
+
+    <EditText
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText" />
+
+    <Button
+        android:id="@+id/sing_up"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/button2_corner"
+        android:text="Sign Up "
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/already_register"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text=" already registered ? login me"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="399dp" />
+
+</RelativeLayout>

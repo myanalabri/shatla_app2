@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "43810656502",
+    "firebase_url": "https://shatlaapp.firebaseio.com",
+    "project_id": "shatlaapp",
+    "storage_bucket": "shatlaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43810656502:android:2ba4fe5cd4af2798",
+        "android_client_info": {
+          "package_name": "online.shatla_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43810656502-g6mockhibijedai2m7i9l0cjc0fg7t5j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "online.shatla_app",
+            "certificate_hash": "15958ab601a961e7dbb9840bbfecec97d75a0b70"
+          }
+        },
+        {
+          "client_id": "43810656502-5thnalu6nto771l9sjuhnmbjbmhu0akg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCD831dXhNbn9Jo5icDRIW5tlGHTI9e0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43810656502-5thnalu6nto771l9sjuhnmbjbmhu0akg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

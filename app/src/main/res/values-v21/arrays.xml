@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="home_items">
+        <item>Fruit Nursery</item>
+        <item>Vegetable Nursery</item>
+        <item>Ornamental Nursery</item>
+        <item>Forest Nursery</item>
+        <item>Tools and Equipment</item>
+        <item>Gardens</item>
+
+
+
+    </string-array>
+
+</resources>
